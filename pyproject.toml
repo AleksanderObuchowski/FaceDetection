@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "facedetection"
+version = "0.1.0"
+description = ""
+authors = ["Aleksander Obuchowski <obuchowskialeksander@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+deepface = "^0.0.92"
+install = "^1.3.5"
+tf-keras = "^2.16.0"
+facenet-pytorch = "^2.6.0"
+matplotlib = "^3.9.0"
+fastapi = "^0.111.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
