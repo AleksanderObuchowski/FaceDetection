@@ -13,10 +13,17 @@ tf-keras = "^2.16.0"
 facenet-pytorch = "^2.6.0"
 matplotlib = "^3.9.0"
 fastapi = "^0.111.0"
+dlib = "^19.24.4"
+qdrant-client = "^1.9.1"
+python-multipart = "^0.0.9"
 
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.4"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
 
 [build-system]
 requires = ["poetry-core"]
